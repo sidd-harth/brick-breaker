@@ -5,6 +5,7 @@ metadata:
   labels:
     app: n1
   name: n1
+  namespace: default
 spec:
   replicas: 1
   selector:
