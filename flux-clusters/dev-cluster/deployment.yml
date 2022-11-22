@@ -19,5 +19,5 @@ spec:
         app: n1
     spec:
       containers:
-      - image: siddharth67/nginx:1.0.0
+      - image: siddharth67/nginx:1.0.0 # {"$imagepolicy": "flux-system:image-policy"}
         name: nginx
