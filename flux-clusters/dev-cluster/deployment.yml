@@ -19,5 +19,5 @@ spec:
         app: n1
     spec:
       containers:
-      - image: docker.io/siddharth67/nginx:1.0.1 # {"$imagepolicy": "flux-system:image-policy"}
+      - image: docker.io/siddharth67/nginx:1.0.2 # {"$imagepolicy": "flux-system:image-policy"}
         name: nginx
